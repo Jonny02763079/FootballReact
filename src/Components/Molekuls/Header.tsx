@@ -119,9 +119,9 @@ export default function Header({ setDataFetched, setDataFetchedTeams, setDataFet
             <SearchField searchFunction={SearchInput}></SearchField>
             {/* <div>Header</div> */}
             <div><img src="../../Img/bundesliga-2-1.webp" alt="" /></div>
-            {/* <Button name="Teams" ></Button>
-            <Button name="Games" ></Button>
-            <Button name="Upcoming Games" ></Button> */}
+            <Button name="Teams" url='teams' onClick={() => alert("teams")} ></Button>
+            <Button name="Games" url='' isSelected={true} onClick={() => alert("Games")}></Button>
+            <Button name="Upcoming Games" url='upcoming' onClick={() => alert("Upcoming")}></Button>
 
         </>
     )
