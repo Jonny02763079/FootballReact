@@ -60,7 +60,7 @@ const contentStyle: React.CSSProperties = {
 }
 
 const headlineStyle: React.CSSProperties = {
-    position: 'fixed'
+
 }
 
 
